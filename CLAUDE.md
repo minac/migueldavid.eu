@@ -33,6 +33,7 @@ Content is data-driven through JSON files in `data/`:
 - `talks.json` - Speaking engagements with language tags
 - `opensource.json` - OSS contributions with status labels
 - `aboutsections.json` - About page sections with title/description/items
+- `work.json` - Work history for timeline (company, title, startDate, endDate)
 
 ### Layout Structure
 
@@ -48,7 +49,10 @@ The site uses a custom theme (`themes/hygge/`) with specialized layouts:
 **About page (`layouts/about.html`):**
 
 - Custom layout outside theme
-- Two sections: first 3 items from `aboutsections.json` as cards, remaining items below
+- Header with bio from `site.Params.aboutBio`
+- Background section: first 3 items from `aboutsections.json` as cards
+- Additional Info section: remaining items from `aboutsections.json`
+- Work History section: vertical timeline from `work.json` with alternating left/right layout
 - Items with `items` array render as checkmarked bullet points (✓)
 - Items with `description` render as paragraph text
 
@@ -79,6 +83,17 @@ Social/external links use inline SVG icons with consistent styling.
 Site config in `hugo.toml`:
 
 - `params.name` - Site/personal name
-- `params.bio` - Tagline/bio
+- `params.bio` - Short tagline/bio (used on homepage)
+- `params.aboutBio` - Longer bio text (used on about page)
 - `params.blogURL` - External blog link
 - `params.social.*` - Social media URLs (twitter, bluesky, github, linkedin)
+
+## CSS Variables
+
+Custom CSS variables in `themes/hygge/static/css/main.css`:
+
+- `--color-bg` - Off-white background (#fffcf5)
+- `--color-text` - Primary text color (#1a1a1a)
+- `--color-text-light` - Secondary text (#666)
+- `--color-text-lighter` - Tertiary text for dates (#999)
+- `--color-border` - Subtle borders (#e5e3df)

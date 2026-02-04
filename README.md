@@ -1,125 +1,51 @@
-# migueldavid.eu
+# Miguel David
 
-A minimal, calm personal website built with Hugo. Embraces hygge editorial minimalism with clean typography, generous whitespace, and a focus on content.
+Engineering Manager based in Brussels, Belgium, originally from Porto, Portugal.
 
-## Design Philosophy
+I build reliable systems and grow engineering teams. I've done this from Porto to London to Brussels, 7 countries total, usually while figuring out a new language and where to get decent coffee.
 
-- **Warm & calm**: Off-white backgrounds with soft contrast
-- **Typography-first**: Content hierarchy through type, not boxes
-- **Minimal navigation**: Single-page scroll-driven layout
-- **Generous whitespace**: Breathing room for content
-- **No clutter**: Zero SaaS/marketing vibes
+## About This Site
 
-## Development
+A minimal personal website embracing hygge editorial minimalism. Built with Hugo, designed for clarity and calm.
 
-### Prerequisites
+**Design principles:**
 
-- [Hugo](https://gohugo.io/) v0.155.2 or later
+- Typography-first content hierarchy
+- Warm, off-white backgrounds (#fffcf5)
+- Generous whitespace
+- No clutter, no SaaS vibes
 
-### Running locally
+## Current Role
+
+**Engineering Manager at Harvest** (Jan 2023 - Present)
+Leading distributed SRE & Product teams through acquisition.
+
+Key achievements:
+
+- $240K/year in cloud savings
+- 99.95% uptime
+- Led teams through acquisition
+
+## Find Me
+
+- **Website**: [migueldavid.eu](https://migueldavid.eu)
+- **X/Twitter**: [@migueldavidx](https://x.com/migueldavidx)
+- **Bluesky**: [@migueldavid.eu](https://bsky.app/profile/migueldavid.eu)
+- **GitHub**: [@minac](https://github.com/minac)
+- **LinkedIn**: [/in/migueldavid](https://linkedin.com/in/migueldavid)
+
+## Technical Setup
+
+Built with Hugo (v0.155.2+), deployed as static site. Content managed through JSON data files for easy updates without touching code.
+
+**Local development:**
 
 ```bash
-hugo server
+hugo server  # http://localhost:1313
 ```
 
-Visit http://localhost:1313
-
-### Building for production
+**Build:**
 
 ```bash
-hugo
+hugo  # Outputs to public/
 ```
-
-Static files will be generated in the `public/` directory.
-
-## Project Structure
-
-```
-.
-├── data/               # Content data files
-│   ├── projects.json   # Project listings
-│   ├── writing.json    # Writing pieces
-│   └── opensource.json # Open source contributions
-├── themes/hygge/       # Custom theme
-│   ├── layouts/        # HTML templates
-│   └── static/css/     # Stylesheets
-└── hugo.toml           # Site configuration
-```
-
-## Customization
-
-### Site info
-
-Edit `hugo.toml`:
-
-```toml
-[params]
-  name = "Your Name"
-  bio = "Your bio here"
-  blogURL = "https://your-blog-url.com"
-
-  [params.social]
-    twitter = "https://x.com/yourhandle"
-    github = "https://github.com/yourusername"
-    linkedin = "https://linkedin.com/in/yourprofile"
-```
-
-### Projects
-
-Edit `data/projects.json`:
-
-```json
-[
-  {
-    "title": "Project Name",
-    "description": "Brief description",
-    "github": "https://github.com/...",
-    "website": "https://...",
-    "npm": "https://npmjs.com/package/..."
-  }
-]
-```
-
-### Writing
-
-Edit `data/writing.json`:
-
-```json
-[
-  {
-    "title": "Article Title",
-    "description": "Brief description",
-    "url": "/writing/article-slug"
-  }
-]
-```
-
-### Open Source Contributions
-
-Edit `data/opensource.json`:
-
-```json
-[
-  {
-    "title": "Project Name",
-    "statusLabel": "PR",
-    "state": "OPEN",
-    "date": "FEB 2025",
-    "description": "What you contributed",
-    "github": "https://github.com/..."
-  }
-]
-```
-
-## Deployment
-
-This is a static site that can be deployed to any static hosting:
-
-- **GitHub Pages**: Push `public/` directory
-- **Netlify**: Connect your repo, build command: `hugo`, publish directory: `public`
-- **Vercel**: Same as Netlify
-- **Cloudflare Pages**: Same as Netlify
-
-## License
-
-Theme and content structure available under MIT License.

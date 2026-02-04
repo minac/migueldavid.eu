@@ -22,27 +22,32 @@
     {
       "client": "ViGIE Solutions",
       "period": "July 2016 – Oct 2017",
-      "description": "Transformed legacy LAPP servers to AWS with redundancy across compute, storage, and databases using Ansible and AWS services."
+      "description": "Migrated legacy LAPP applications from bare metal Linode servers to AWS with resilient, scalable architecture codified with Ansible. Deployed 15 EC2 instances with auto-scaling and load balancers, transitioned 5 databases to AWS RDS, and deployed 12 applications across 18 Ansible roles.",
+      "technologies": "Ubuntu, AWS (EC2, ASG, ALB, IAM, S3, RDS, VPC), PostgreSQL, Ansible"
     },
     {
       "client": "Foursource",
       "period": "Oct 2016 – Apr 2017",
-      "description": "Built green-field infrastructure in one month, establishing Jenkins CI, RabbitMQ messaging, and CDN before development started."
+      "description": "Created complete infrastructure on AWS one month before developers started work for B2B apparel sourcing platform. Established Jenkins CI, RabbitMQ messaging, Redis caching, and CloudFront CDN across 4 environments using 8 Ansible roles and 9 Packer configs.",
+      "technologies": "Ubuntu, Vagrant, Ansible, Terraform, Packer, Jenkins, Docker, Nginx, RabbitMQ, PostgreSQL, AWS"
     },
     {
       "client": "Chic by Choice",
       "period": "Aug 2016 – Mar 2017",
-      "description": "Enhanced security, automation, and cost efficiency while improving monitoring and CI workflows."
+      "description": "Enhanced resilience, security, and automation for fashion rental company. Hardened SSH security, reduced costs through capacity optimization of 7 EC2 c3.xlarge instances, improved CI workflows with Codeship and Capistrano, and enhanced monitoring with Datadog and Elasticsearch.",
+      "technologies": "Ubuntu, Git, Codeship, Capistrano, Redis, Cloudflare, Datadog, Elasticsearch, Nginx, PostgreSQL, Ansible, Terraform, AWS"
     },
     {
       "client": "LTP Labs",
       "period": "June 2017 – ongoing",
-      "description": "Scaled analytics infrastructure from SQL Server to AWS Redshift and containerized ELT systems."
+      "description": "Migrated analytics infrastructure from on-premise SQL Server to AWS Redshift 6-node dc2.large cluster handling 50M+ rows/day. Containerized Talend ELT jobs on 2 AWS ECS clusters, deployed Vue.js/Django project with Redis and Aurora MySQL, and executed zero-downtime HTTP-to-HTTPS migration.",
+      "technologies": "Ubuntu, Docker, Nginx, Gitlab CI, AWS (ECS, Redshift, RDS, S3, ElastiCache, ALB, VPC)"
     },
     {
       "client": "WikiTribune",
       "period": "Sept 2017 – ongoing",
-      "description": "Migrated WordPress to multi-region AWS infrastructure supporting ~20 daily deployments."
+      "description": "Transformed journalism platform from basic AWS Lightsail to resilient, multi-region infrastructure using Terraform, Ansible, and Packer. Deployed 15 EC2 instances supporting ~20 deployments per day, replicated across 3 environments and 2 AWS regions, with automated nightly destruction and morning redeployment, secured with Cloudflare.",
+      "technologies": "Ubuntu, Ansible, Packer, Terraform, Gitlab CI, Docker, Cloudflare, AWS (EC2, ECS, ASG, S3, RDS, VPC, SNS)"
     }
   ]
 }

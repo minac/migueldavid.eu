@@ -74,12 +74,12 @@
     </div>
   </header>
 
-  <!-- Highlights Section -->
+  <!-- About Section -->
   <section>
     <div class="section-header">
-      <h2 class="section-title">Highlights</h2>
+      <h2 class="section-title">About</h2>
       <a href="/about" class="section-link">
-        About Me <span aria-hidden="true">→</span>
+        More About Me <span aria-hidden="true">→</span>
       </a>
     </div>
     <div class="grid">
@@ -87,6 +87,36 @@
       <article class="card">
         <h3 class="card-title">{{ .title }}</h3>
         <p class="card-description">{{ .description }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- Writing Section -->
+  <section>
+    <div class="section-header">
+      <h2 class="section-title">Writing</h2>
+      <a
+        href="{{ site.Params.blogURL }}"
+        class="section-link"
+        target="_blank"
+        rel="noopener"
+      >
+        More Writing <span aria-hidden="true">→</span>
+      </a>
+    </div>
+    <div class="grid">
+      {{ range site.Data.writing }}
+      <article class="card">
+        {{ if .url }}
+        <a href="{{ .url }}" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;">
+          <h3 class="card-title">{{ .title }}</h3>
+          <p class="card-description">{{ .description }}</p>
+        </a>
+        {{ else }}
+        <h3 class="card-title">{{ .title }}</h3>
+        <p class="card-description">{{ .description }}</p>
+        {{ end }}
       </article>
       {{ end }}
     </div>
@@ -157,36 +187,6 @@
     </div>
   </section>
 
-  <!-- Writing Section -->
-  <section>
-    <div class="section-header">
-      <h2 class="section-title">Writing</h2>
-      <a
-        href="{{ site.Params.blogURL }}"
-        class="section-link"
-        target="_blank"
-        rel="noopener"
-      >
-        More Writing <span aria-hidden="true">→</span>
-      </a>
-    </div>
-    <div class="grid">
-      {{ range site.Data.writing }}
-      <article class="card">
-        {{ if .url }}
-        <a href="{{ .url }}" target="_blank" rel="noopener" style="text-decoration: none; color: inherit;">
-          <h3 class="card-title">{{ .title }}</h3>
-          <p class="card-description">{{ .description }}</p>
-        </a>
-        {{ else }}
-        <h3 class="card-title">{{ .title }}</h3>
-        <p class="card-description">{{ .description }}</p>
-        {{ end }}
-      </article>
-      {{ end }}
-    </div>
-  </section>
-
   <!-- Talks Section -->
   <section id="talks">
     <div class="section-header">
@@ -211,6 +211,24 @@
           </a>
           {{ end }}
         </div>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- Consulting Section -->
+  <section>
+    <div class="section-header">
+      <h2 class="section-title">Consulting</h2>
+      <a href="/consulting" class="section-link">
+        View Services <span aria-hidden="true">→</span>
+      </a>
+    </div>
+    <div class="grid">
+      {{ range site.Data.consulting.services }}
+      <article class="card">
+        <h3 class="card-title">{{ .title }}</h3>
+        <p class="card-description">{{ .description }}</p>
       </article>
       {{ end }}
     </div>

@@ -1,0 +1,68 @@
+[
+  {
+    "company": "Harvest",
+    "title": "Engineering Manager, SRE & Forecast Teams",
+    "startDate": "Jan 2023",
+    "endDate": "Sep 2025"
+  },
+  {
+    "company": "Harvest",
+    "title": "Site Reliability Engineer",
+    "startDate": "May 2019",
+    "endDate": "Jan 2023"
+  },
+  {
+    "company": "DevOps Porto",
+    "title": "Co-organizer",
+    "startDate": "Oct 2016",
+    "endDate": "Feb 2024"
+  },
+  {
+    "company": "Curious Ellie",
+    "title": "Linux, Cloud and Automation Engineer",
+    "startDate": "Jan 2016",
+    "endDate": "May 2019"
+  },
+  {
+    "company": "Miguel David d.o.o.",
+    "title": "IT Consultant for Cloud Infrastructure",
+    "startDate": "Jan 2015",
+    "endDate": "Feb 2016"
+  },
+  {
+    "company": "Rackspace",
+    "title": "Linux Systems Administrator L3",
+    "startDate": "Jan 2014",
+    "endDate": "Jan 2015"
+  },
+  {
+    "company": "Rackspace",
+    "title": "Linux Systems Administrator L2",
+    "startDate": "Aug 2012",
+    "endDate": "Dec 2013"
+  },
+  {
+    "company": "Rackspace",
+    "title": "Linux Systems Administrator",
+    "startDate": "Jan 2011",
+    "endDate": "Aug 2012"
+  },
+  {
+    "company": "European Space Agency",
+    "title": "Systems Administrator and Data Manager",
+    "startDate": "Apr 2009",
+    "endDate": "Aug 2010"
+  },
+  {
+    "company": "Qimonda",
+    "title": "IT Senior Engineer",
+    "startDate": "Sep 2006",
+    "endDate": "Apr 2009"
+  },
+  {
+    "company": "Infineon",
+    "title": "IT Engineer",
+    "startDate": "Mar 2003",
+    "endDate": "Sep 2006"
+  }
+]

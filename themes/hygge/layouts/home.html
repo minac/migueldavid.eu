@@ -2,12 +2,26 @@
 <div class="container">
   <!-- Header -->
   <header>
-    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1rem;">
+    <!-- Title -->
+    <div style="display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem;">
       <img src="{{ "butterfly.png" | relURL }}" alt="Butterfly logo" width="48" height="48" />
       <h1 class="site-title" style="margin: 0;">{{ site.Params.name }}</h1>
     </div>
-    <p class="site-bio">{{ site.Params.bio }}</p>
-    <div class="social-links">
+
+    <!-- Navigation and Social -->
+    <div style="display: flex; justify-content: space-between; align-items: center; padding-bottom: 1.5rem; border-bottom: 1px solid var(--color-border); margin-bottom: 1.5rem;">
+      <!-- Navigation -->
+      <nav>
+        <div style="display: flex; gap: 1.5rem; font-size: 0.9375rem;">
+          <a href="/about" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;">About</a>
+          <a href="/projects" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;">Projects</a>
+          <a href="{{ site.Params.blogURL }}" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;" target="_blank" rel="noopener">Writing</a>
+          <a href="#talks" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;">Talks</a>
+        </div>
+      </nav>
+
+      <!-- Social Links -->
+      <div class="social-links">
       {{ with site.Params.social.twitter }}
       <a href="{{ . }}" aria-label="Twitter" target="_blank" rel="noopener">
         <svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
@@ -52,17 +66,11 @@
         </svg>
       </a>
       {{ end }}
+      </div>
     </div>
 
-    <!-- Navigation -->
-    <nav style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-border);">
-      <div style="display: flex; gap: 1.5rem; font-size: 0.9375rem;">
-        <a href="/about" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;">About</a>
-        <a href="/projects" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;">Projects</a>
-        <a href="{{ site.Params.blogURL }}" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;" target="_blank" rel="noopener">Writing</a>
-        <a href="#talks" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;">Talks</a>
-      </div>
-    </nav>
+    <!-- Bio -->
+    <p class="site-bio">{{ site.Params.bio }}</p>
   </header>
 
   <!-- Highlights Section -->

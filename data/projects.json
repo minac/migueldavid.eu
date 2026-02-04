@@ -1,0 +1,17 @@
+[
+  {
+    "title": "Speakeasy Mac",
+    "description": "Native macOS menu bar app for text-to-speech using AVSpeechSynthesizer. Built with Swift and Claude Code.",
+    "github": "https://github.com/minac/speakeasy-mac"
+  },
+  {
+    "title": "NBA Game Recommender",
+    "description": "NBA most engaging game of the week. Find the best games to watch based on competitive metrics.",
+    "github": "https://github.com/minac/nba-game-recommender"
+  },
+  {
+    "title": "Render Status",
+    "description": "CLI tool to check the status of deployments and cronjobs in Render. Monitor your Render services from the command line.",
+    "github": "https://github.com/minac/render-status"
+  }
+]

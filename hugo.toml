@@ -1,0 +1,22 @@
+baseURL = 'https://migueldavid.eu/'
+languageCode = 'en-us'
+title = 'migueldavid.eu'
+theme = 'hygge'
+
+[params]
+  name = "migueldavid.eu"
+  bio = "Engineering Manager building reliable systems and high-performing teams"
+  location = "Brussels, Belgium"
+  blogURL = "https://migueldavid.eu"  # External blog URL
+
+  [params.social]
+    twitter = "https://x.com/migueldavidx"
+    bluesky = "https://bsky.app/profile/migueldavid.eu"
+    github = "https://github.com/minac"
+    linkedin = "https://linkedin.com/in/migueldavid"
+
+[menu]
+  [[menu.main]]
+    name = "Blog"
+    url = "https://migueldavid.eu/blog"
+    weight = 1

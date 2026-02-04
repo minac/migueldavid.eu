@@ -1,0 +1,10 @@
+[
+  {
+    "title": "Render MCP Server",
+    "statusLabel": "ISSUE",
+    "state": "OPEN",
+    "date": "DEC 2025",
+    "description": "Claude Code MCP authentication fails: OAuth 404 and API key 'unauthorized'",
+    "github": "https://github.com/render-oss/render-mcp-server"
+  }
+]

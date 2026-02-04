@@ -1,0 +1,16 @@
+[
+  {
+    "title": "Leading an SRE Team - Lessons from year 1",
+    "language": "Portuguese",
+    "event": "YouTube",
+    "description": "Key learnings from my first year leading an SRE team, covering team building, incident management, and balancing reliability with velocity.",
+    "url": "https://www.youtube.com/watch?v=oty11Uy3n38"
+  },
+  {
+    "title": "Context matters",
+    "language": "English",
+    "event": "Harvest Summit (Paperboy Live)",
+    "description": "A presentation at an internal Harvest event where employees share on topics of personal interest",
+    "url": "https://youtu.be/uisihAySe9g"
+  }
+]

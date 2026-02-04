@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Upper left wing -->
+  <path d="M 50 50 Q 30 35 25 20 Q 23 15 25 13 Q 27 11 30 13 Q 38 20 50 50" fill="white"/>
+
+  <!-- Upper right wing -->
+  <path d="M 50 50 Q 70 35 75 20 Q 77 15 75 13 Q 73 11 70 13 Q 62 20 50 50" fill="white"/>
+
+  <!-- Lower left wing -->
+  <path d="M 50 50 Q 30 65 25 80 Q 23 85 25 87 Q 27 89 30 87 Q 38 80 50 50" fill="white"/>
+
+  <!-- Lower right wing -->
+  <path d="M 50 50 Q 70 65 75 80 Q 77 85 75 87 Q 73 89 70 87 Q 62 80 50 50" fill="white"/>
+</svg>

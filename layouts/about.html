@@ -1,0 +1,114 @@
+{{ define "main" }}
+<div class="container">
+  <header style="margin-bottom: 3rem">
+    <h1 class="site-title">About Miguel</h1>
+    <p
+      class="site-bio"
+      style="margin-top: 1rem; text-align: justify; max-width: none"
+    >
+      I build reliable systems and grow engineering teams. I've done this from
+      Porto to London to Brussels, 7 countries total, usually while figuring out
+      a new language and where to get decent coffee. I live in Brussels now with
+      my wife, two small humans, and a dog named after the real hero of
+      Middle-earth.
+    </p>
+  </header>
+
+  <!-- About Section with Cards -->
+  <section>
+    <div class="section-header">
+      <h2 class="section-title">Background</h2>
+    </div>
+    <div class="grid">
+      {{ range first 3 site.Data.aboutsections }}
+      <article class="card">
+        <h3 class="card-title">{{ .title }}</h3>
+        {{ with .items }}
+        <div
+          style="
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+          "
+        >
+          {{ range . }}
+          <div
+            style="
+              display: flex;
+              align-items: flex-start;
+              gap: 0.75rem;
+              padding: 0.75rem;
+              border-radius: 0.5rem;
+              font-size: 0.875rem;
+              color: var(--color-text-light);
+            "
+          >
+            <span
+              style="
+                flex-shrink: 0;
+                color: #10b981;
+                font-size: 1.25rem;
+                line-height: 1;
+              "
+              >✓</span
+            >
+            <span style="line-height: 1.5">{{ . }}</span>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- Additional Info -->
+  <section style="margin-top: 3rem">
+    <div class="grid">
+      {{ range after 3 site.Data.aboutsections }}
+      <article class="card">
+        <h3 class="card-title">{{ .title }}</h3>
+        {{ with .description }}
+        <p class="card-description">{{ . }}</p>
+        {{ end }} {{ with .items }}
+        <div
+          style="
+            margin-top: 1rem;
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+          "
+        >
+          {{ range . }}
+          <div
+            style="
+              display: flex;
+              align-items: flex-start;
+              gap: 0.75rem;
+              padding: 0.75rem;
+              border-radius: 0.5rem;
+              font-size: 0.875rem;
+              color: var(--color-text-light);
+            "
+          >
+            <span
+              style="
+                flex-shrink: 0;
+                color: #10b981;
+                font-size: 1.25rem;
+                line-height: 1;
+              "
+              >✓</span
+            >
+            <span style="line-height: 1.5">{{ . }}</span>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
+      </article>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

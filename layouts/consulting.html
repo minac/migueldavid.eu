@@ -1,0 +1,115 @@
+{{ define "main" }}
+<div class="container">
+  <header style="margin-bottom: 3rem">
+    <h1 class="site-title">Consulting</h1>
+    <p
+      class="site-bio"
+      style="margin-top: 1rem; text-align: justify; max-width: none"
+    >
+      {{ site.Data.consulting.intro }}
+    </p>
+  </header>
+
+  <!-- Services Section -->
+  <section>
+    <div class="section-header">
+      <h2 class="section-title">Services</h2>
+    </div>
+    <div class="grid">
+      {{ range site.Data.consulting.services }}
+      <article class="card">
+        <h3 class="card-title">{{ .title }}</h3>
+        <p class="card-description">{{ .description }}</p>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section style="margin-top: 3rem">
+    <div class="section-header">
+      <h2 class="section-title">Selected Projects</h2>
+    </div>
+    <div style="max-width: 600px; margin: 2rem auto 0">
+      {{ range $index, $project := site.Data.consulting.projects }}
+      <div
+        style="display: flex; gap: 2rem; margin-bottom: 3rem; {{ if mod $index 2 }}flex-direction: row-reverse;{{ end }}"
+      >
+        <!-- Content -->
+        <div
+          style="flex: 1; {{ if mod $index 2 }}text-align: left;{{ else }}text-align: right;{{ end }}"
+        >
+          <h3
+            style="
+              font-size: 1.125rem;
+              font-weight: 600;
+              color: var(--color-text);
+              margin-bottom: 0.5rem;
+            "
+          >
+            {{ .client }}
+          </h3>
+          <p
+            style="
+              font-size: 0.875rem;
+              color: var(--color-text-lighter);
+              margin-bottom: 0.75rem;
+            "
+          >
+            {{ .period }}
+          </p>
+          <p
+            style="
+              font-size: 0.9375rem;
+              color: var(--color-text-light);
+              margin: 0;
+            "
+          >
+            {{ .description }}
+          </p>
+        </div>
+
+        <!-- Timeline connector -->
+        <div
+          style="
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          "
+        >
+          <!-- Circle -->
+          <div
+            style="
+              width: 12px;
+              height: 12px;
+              border-radius: 50%;
+              background-color: var(--color-text);
+              border: 3px solid var(--color-bg);
+              z-index: 2;
+              flex-shrink: 0;
+            "
+          ></div>
+
+          <!-- Vertical line -->
+          {{ if ne (add $index 1) (len site.Data.consulting.projects) }}
+          <div
+            style="
+              width: 2px;
+              flex: 1;
+              min-height: 3rem;
+              background-color: var(--color-border);
+              margin-top: -2px;
+            "
+          ></div>
+          {{ end }}
+        </div>
+
+        <!-- Spacer for alternating layout -->
+        <div style="flex: 1"></div>
+      </div>
+      {{ end }}
+    </div>
+  </section>
+</div>
+{{ end }}

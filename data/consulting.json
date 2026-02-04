@@ -1,0 +1,48 @@
+{
+  "intro": "I help organizations build reliable, scalable infrastructure through cloud architecture, automation, and DevOps practices.",
+  "services": [
+    {
+      "title": "Cloud Architecture",
+      "description": "Design and implement resilient, scalable systems on AWS and other cloud platforms."
+    },
+    {
+      "title": "Infrastructure as Code",
+      "description": "Implement Ansible, Terraform, and Packer for reproducible, version-controlled deployments."
+    },
+    {
+      "title": "Legacy Modernization",
+      "description": "Migrate on-premise applications to cloud environments with minimal disruption."
+    },
+    {
+      "title": "CI/CD & Automation",
+      "description": "Build deployment pipelines, configuration management, and workflow automation."
+    }
+  ],
+  "projects": [
+    {
+      "client": "ViGIE Solutions",
+      "period": "July 2016 – Oct 2017",
+      "description": "Transformed legacy LAPP servers to AWS with redundancy across compute, storage, and databases using Ansible and AWS services."
+    },
+    {
+      "client": "Foursource",
+      "period": "Oct 2016 – Apr 2017",
+      "description": "Built green-field infrastructure in one month, establishing Jenkins CI, RabbitMQ messaging, and CDN before development started."
+    },
+    {
+      "client": "Chic by Choice",
+      "period": "Aug 2016 – Mar 2017",
+      "description": "Enhanced security, automation, and cost efficiency while improving monitoring and CI workflows."
+    },
+    {
+      "client": "LTP Labs",
+      "period": "June 2017 – ongoing",
+      "description": "Scaled analytics infrastructure from SQL Server to AWS Redshift and containerized ELT systems."
+    },
+    {
+      "client": "WikiTribune",
+      "period": "Sept 2017 – ongoing",
+      "description": "Migrated WordPress to multi-region AWS infrastructure supporting ~20 daily deployments."
+    }
+  ]
+}

@@ -53,6 +53,16 @@
       </a>
       {{ end }}
     </div>
+
+    <!-- Navigation -->
+    <nav style="margin-top: 2rem; padding-top: 2rem; border-top: 1px solid var(--color-border);">
+      <div style="display: flex; gap: 1.5rem; font-size: 0.9375rem;">
+        <a href="/about" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;">About</a>
+        <a href="/projects" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;">Projects</a>
+        <a href="{{ site.Params.blogURL }}" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;" target="_blank" rel="noopener">Writing</a>
+        <a href="#talks" style="color: var(--color-text); text-decoration: none; transition: color 0.2s;">Talks</a>
+      </div>
+    </nav>
   </header>
 
   <!-- Highlights Section -->
@@ -60,7 +70,7 @@
     <div class="section-header">
       <h2 class="section-title">Highlights</h2>
       <a href="/about" class="section-link">
-        View More <span aria-hidden="true">→</span>
+        About Me <span aria-hidden="true">→</span>
       </a>
     </div>
     <div class="grid">
@@ -78,7 +88,7 @@
     <div class="section-header">
       <h2 class="section-title">Projects</h2>
       <a href="/projects" class="section-link">
-        View More <span aria-hidden="true">→</span>
+        All Projects <span aria-hidden="true">→</span>
       </a>
     </div>
     <div class="grid">
@@ -148,7 +158,7 @@
         target="_blank"
         rel="noopener"
       >
-        View More <span aria-hidden="true">→</span>
+        More Writing <span aria-hidden="true">→</span>
       </a>
     </div>
     <div class="grid">
@@ -169,7 +179,7 @@
   </section>
 
   <!-- Talks Section -->
-  <section>
+  <section id="talks">
     <div class="section-header">
       <h2 class="section-title">Talks</h2>
     </div>

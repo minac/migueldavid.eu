@@ -6,7 +6,7 @@ theme = 'hygge'
 [params]
   name = "migueldavid.eu"
   bio = "Engineering Manager building reliable systems and high-performing teams"
-  aboutBio = "I build reliable systems and grow engineering teams. I've done this from Porto to London to Brussels, 7 countries total, usually while figuring out a new language and where to get decent coffee. I live in Brussels now with my wife, two small humans, and a dog named after the real hero of Middle-earth."
+  aboutBio = "I build reliable systems and grow engineering teams. I've done this from Porto to London to Brussels, 7 countries total, usually while figuring out a new language and where to get decent tea. I live in Brussels now with my wife, two small humans, and a dog named after the real hero of Middle-earth."
   location = "Brussels, Belgium"
   blogURL = "https://migueldavid.eu"  # External blog URL
 

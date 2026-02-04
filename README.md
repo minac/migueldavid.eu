@@ -2,7 +2,7 @@
 
 Engineering Manager based in Brussels, Belgium, originally from Porto, Portugal.
 
-I build reliable systems and grow engineering teams. I've done this from Porto to London to Brussels, 7 countries total, usually while figuring out a new language and where to get decent coffee.
+I build reliable systems and grow engineering teams. I've done this from Porto to London to Brussels, 7 countries total, usually while figuring out a new language and where to get decent tea.
 
 ## About This Site
 

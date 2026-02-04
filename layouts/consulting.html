@@ -62,11 +62,23 @@
             style="
               font-size: 0.9375rem;
               color: var(--color-text-light);
-              margin: 0;
+              margin-bottom: 0.75rem;
             "
           >
             {{ .description }}
           </p>
+          {{ with .technologies }}
+          <p
+            style="
+              font-size: 0.8125rem;
+              color: var(--color-text-lighter);
+              font-style: italic;
+              margin: 0;
+            "
+          >
+            {{ . }}
+          </p>
+          {{ end }}
         </div>
 
         <!-- Timeline connector -->

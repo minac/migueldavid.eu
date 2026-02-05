@@ -13,19 +13,15 @@
     "items": [
       "Engineering Degree - Faculdade de Engenharia da Universidade do Porto (1998-2003)",
       "System Thinking - MIT xPRO (March 2025)",
-      "MIT xPRO Cloud & DevOps",
       "Certified Kubernetes Administrator (CKA) - Linux Foundation (Jan 2021)",
       "AWS Certified Solutions Architect - Associate",
-      "AWS Certified Developer - Associate",
-      "AWS Certified SysOps Administrator - Associate",
-      "AWS Certified Cloud Practitioner"
+      "AWS Certified SysOps Administrator - Associate"
     ]
   },
   {
     "title": "Entrepreneurial Ventures",
     "items": [
       "Taste Porto - Co-founded a successful food tour company in Porto with my wife and best friend",
-      "Wedding Celebrant - Briefly worked for my wife's wedding company",
       "Coworking Space - Co-founded and operated a coworking space in Split, Croatia for one year"
     ]
   },
@@ -33,14 +29,14 @@
     "title": "Technical Expertise",
     "items": [
       "Infrastructure & Automation: Ansible, Terraform, Packer, Vagrant",
-      "CI/CD: GitLab CI, Jenkins, Bitbucket Pipelines",
+      "CI/CD: GitLab CI, Jenkins, Bitbucket Pipelines, GitHub, Buildkite",
       "Databases: PostgreSQL, MySQL, MongoDB, Oracle",
-      "Operating Systems: Linux (Red Hat, CentOS, Ubuntu), macOS, Unix (HP-UX, Solaris)"
+      "Operating Systems: Linux (Red Hat, CentOS, Ubuntu), macOS, Unix (Solaris)"
     ]
   },
   {
     "title": "International Experience",
-    "description": "I've lived and worked in multiple countries: Portugal (Porto), Belgium, Denmark, Italy, United Kingdom, and Croatia."
+    "description": "I've lived and worked in multiple countries: Portugal, Belgium, Denmark, Italy, United Kingdom, and Croatia."
   },
   {
     "title": "Languages",

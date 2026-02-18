@@ -3,30 +3,30 @@
     "title": "Thoughts on our perceptions of AI",
     "description": "Exploring how we perceive and interact with AI systems in 2026.",
     "date": "Feb 2, 2026",
-    "url": "https://migueldavid.eu/posts/thoughts-on-our-perceptions-of-ai"
+    "url": "https://blog.migueldavid.eu/posts/thoughts-on-our-perceptions-of-ai"
   },
   {
     "title": "Building Speakeasy: From Python Prototype to Native macOS App",
     "description": "The journey of building a native macOS text-to-speech application with Swift and Claude Code.",
     "date": "Dec 16, 2025",
-    "url": "https://migueldavid.eu/posts/building-speakeasy-from-python-prototype-to-native-macos-app"
+    "url": "https://blog.migueldavid.eu/posts/building-speakeasy-from-python-prototype-to-native-macos-app"
   },
   {
     "title": "Building a CLI Tool to Monitor Render.com Services with Claude",
     "description": "Creating a command-line tool to monitor Render deployments and services.",
     "date": "Nov 25, 2025",
-    "url": "https://migueldavid.eu/posts/building-a-cli-tool-to-monitor-rendercom-services-with-claude"
+    "url": "https://blog.migueldavid.eu/posts/building-a-cli-tool-to-monitor-rendercom-services-with-claude"
   },
   {
     "title": "Building an NBA Game Recommender: A Study in Poor Time Management and AI",
     "description": "Using AI to find the most engaging NBA games worth watching each week.",
     "date": "Nov 18, 2025",
-    "url": "https://migueldavid.eu/posts/building-an-nba-game-recommender-a-study-in-poor-time-management-and-ai"
+    "url": "https://blog.migueldavid.eu/posts/building-an-nba-game-recommender-a-study-in-poor-time-management-and-ai"
   },
   {
     "title": "How to Survive Without a Playbook as an Engineering Manager",
     "description": "Navigating engineering leadership when there's no established process or playbook.",
     "date": "Jan 6, 2025",
-    "url": "https://migueldavid.eu/posts/how-to-survive-without-a-playbook-as-an-engineering-manager"
+    "url": "https://blog.migueldavid.eu/posts/how-to-survive-without-a-playbook-as-an-engineering-manager"
   }
 ]

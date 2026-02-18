@@ -1,68 +1,89 @@
 [
   {
     "company": "Harvest",
+    "url": "https://www.getharvest.com",
     "title": "Engineering Manager, SRE & Forecast Teams",
     "startDate": "Jan 2023",
-    "endDate": "Sep 2025"
+    "endDate": "Sep 2025",
+    "description": "Led two globally distributed teams (8 engineers) through Harvest's acquisition. Drove a 3-year zero-downtime migration to Vitess, cut $240K/year in infrastructure costs, and maintained 99.95% uptime across all services. Stabilized the Forecast product, reducing churn from ~4% to ~1.5%."
   },
   {
     "company": "Harvest",
+    "url": "https://www.getharvest.com",
     "title": "Site Reliability Engineer",
     "startDate": "May 2019",
-    "endDate": "Jan 2023"
+    "endDate": "Jan 2023",
+    "description": "Core contributor to a full infrastructure migration from bare metal to GKE across 5 production apps. Built KEDA-based autoscaling that cut compute costs by 60%, designed HA Redis/Memcached architectures, and co-built the SLO monitoring framework that gave us visibility over 99.95% uptime targets."
   },
   {
     "company": "DevOps Porto",
+    "url": "https://devopsporto.com",
     "title": "Co-organizer",
     "startDate": "Oct 2016",
-    "endDate": "Feb 2024"
+    "endDate": "Feb 2024",
+    "description": "Co-organized monthly meetups for the Porto DevOps community, bringing together practitioners to share knowledge on infrastructure, automation, and engineering culture."
   },
   {
     "company": "Curious Ellie",
+    "url": "https://curiousellie.com",
     "title": "Linux, Cloud and Automation Engineer",
     "startDate": "Jan 2016",
-    "endDate": "May 2019"
+    "endDate": "May 2019",
+    "description": "Designed infrastructure and led cloud migrations for startups across travel, news, fashion, and supply chain. Key clients included Nezasa, WikiTribune (Jimmy Wales' news platform), and Chic by Choice. Stack: Terraform, Ansible, Packer, AWS, GCP, Kubernetes."
   },
   {
     "company": "Miguel David d.o.o.",
     "title": "IT Consultant for Cloud Infrastructure",
     "startDate": "Jan 2015",
-    "endDate": "Feb 2016"
+    "endDate": "Feb 2016",
+    "description": "Independent consulting focused on cloud infrastructure, Linux administration, and web development for SMB clients."
   },
   {
     "company": "Rackspace",
+    "url": "https://www.rackspace.com",
     "title": "Linux Systems Administrator L3",
     "startDate": "Jan 2014",
-    "endDate": "Jan 2015"
+    "endDate": "Jan 2015",
+    "description": "Senior technical lead on the Infrastructure Cloud team. Escalation point for OpenStack issues across support tiers. Won Rackspace's \"Fanatic\" award, recognizing the top 5% of employees for customer impact."
   },
   {
     "company": "Rackspace",
+    "url": "https://www.rackspace.com",
     "title": "Linux Systems Administrator L2",
     "startDate": "Aug 2012",
-    "endDate": "Dec 2013"
+    "endDate": "Dec 2013",
+    "description": "Handled escalations for RHEL-based clustered environments. Mentored junior colleagues and improved internal troubleshooting processes across the EMEA region."
   },
   {
     "company": "Rackspace",
+    "url": "https://www.rackspace.com",
     "title": "Linux Systems Administrator",
     "startDate": "Jan 2011",
-    "endDate": "Aug 2012"
+    "endDate": "Aug 2012",
+    "description": "Provided phone and ticket support for SMB customers running RHEL-based LAMP environments, from single servers to load-balanced web clusters and Red Hat Clustered MySQL."
   },
   {
     "company": "European Space Agency",
+    "url": "https://www.esa.int",
     "title": "Systems Administrator and Data Manager",
     "startDate": "Apr 2009",
-    "endDate": "Aug 2010"
+    "endDate": "Aug 2010",
+    "description": "Supported ESA's Grid Processing on Demand platform for Earth observation data. Built a MySQL-based data ingestion pipeline handling ~1 TB/week of satellite data and administered Linux servers, RAID arrays, and monitoring infrastructure."
   },
   {
     "company": "Qimonda",
+    "url": "https://en.wikipedia.org/wiki/Qimonda",
     "title": "IT Senior Engineer",
     "startDate": "Sep 2006",
-    "endDate": "Apr 2009"
+    "endDate": "Apr 2009",
+    "description": "Led equipment integration and automation for two factory production areas, including SECS/GEM equipment control and chip laser marking. Deployed testing frameworks across sites in Italy, Malaysia, and China."
   },
   {
     "company": "Infineon",
+    "url": "https://www.infineon.com",
     "title": "IT Engineer",
     "startDate": "Mar 2003",
-    "endDate": "Sep 2006"
+    "endDate": "Sep 2006",
+    "description": "Implemented SECS/GEM semiconductor equipment control standards. Provided application support to production, quality, and planning departments."
   }
 ]

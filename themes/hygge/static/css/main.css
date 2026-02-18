@@ -7,13 +7,14 @@
   --color-text-lighter: #999;
   --color-border: #e5e3df;
   --color-accent: #1a1a1a;
+  --font-serif: "Playfair Display", Georgia, "Times New Roman", serif;
   --font-sans:
-    -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue",
-    Arial, sans-serif;
+    "Sora", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    "Helvetica Neue", Arial, sans-serif;
   --font-mono:
     "SF Mono", Monaco, "Cascadia Code", "Roboto Mono", Consolas, "Courier New",
     monospace;
-  --max-width: 720px;
+  --max-width: 960px;
   --spacing-unit: 1rem;
 }
 
@@ -55,6 +56,7 @@ header {
 }
 
 .site-title {
+  font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -161,6 +163,7 @@ section {
 }
 
 .card-title {
+  font-family: var(--font-serif);
   font-size: 1rem;
   font-weight: 600;
   color: var(--color-text);
@@ -286,6 +289,7 @@ a:hover {
 }
 
 .prose h1 {
+  font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 600;
   letter-spacing: -0.02em;
@@ -295,6 +299,7 @@ a:hover {
 }
 
 .prose h2 {
+  font-family: var(--font-serif);
   font-size: 0.875rem;
   font-weight: 600;
   text-transform: uppercase;
@@ -377,6 +382,76 @@ a:hover {
 
 .about-link:hover {
   opacity: 0.6;
+}
+
+/* Timeline */
+.about-timeline {
+  position: relative;
+  padding-left: 2rem;
+  margin-top: 2rem;
+}
+
+.about-timeline::before {
+  content: "";
+  position: absolute;
+  left: 5px;
+  top: 8px;
+  bottom: 0;
+  width: 2px;
+  background: linear-gradient(to bottom, var(--color-border), var(--color-bg));
+}
+
+.about-timeline-entry {
+  position: relative;
+  margin-bottom: 2.5rem;
+}
+
+.about-timeline-entry::before {
+  content: "";
+  position: absolute;
+  left: -2rem;
+  top: 8px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--color-bg);
+  border: 2px solid var(--color-border);
+  z-index: 1;
+}
+
+.about-timeline-role {
+  font-family: var(--font-serif);
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--color-text);
+  margin-bottom: 0.25rem;
+}
+
+.about-timeline-date {
+  font-size: 0.8125rem;
+  color: var(--color-text-lighter);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.25rem;
+}
+
+.about-timeline-company {
+  font-size: 0.9375rem;
+  color: var(--color-text-light);
+  margin-bottom: 0.5rem;
+}
+
+.about-timeline-company a {
+  color: var(--color-text-light);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.about-timeline-desc {
+  font-size: 0.875rem;
+  line-height: 1.6;
+  color: var(--color-text-light);
+  max-width: 48ch;
 }
 
 /* Utilities */

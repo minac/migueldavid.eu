@@ -62,7 +62,9 @@ The site uses a custom theme (`themes/hygge/`) with specialized layouts:
 **Shared navigation (`themes/hygge/layouts/_partials/nav.html`):**
 
 - Included on all pages via `baseof.html`
-- Butterfly logo, site name, nav links (Blog, Consulting, Projects), social icons
+- Centered pill nav bar with icon+text items: Home, Blog (external), Consulting, Projects
+- Dark mode toggle button (sun/moon icon) with localStorage persistence and `prefers-color-scheme` support
+- Social icons (LinkedIn, GitHub, Bluesky, Twitter) on the right side of the nav bar
 
 ### Styling Pattern
 
@@ -89,6 +91,7 @@ Social/external links use inline SVG icons with consistent styling.
 - Typography-first: Playfair Display for headings, Sora for body
 - No cluttered SaaS/marketing vibes
 - Scroll-driven single-page homepage
+- Dark mode supported via `[data-theme="dark"]` on `<html>`, toggled by JS in `baseof.html`
 - All styling in `themes/hygge/static/css/main.css` (avoid `themes/hygge/assets/css/`)
 
 ## Configuration
